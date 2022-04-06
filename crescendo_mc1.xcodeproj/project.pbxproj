@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		909B29FB27FD95E4002A4E1B /* HomePageControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909B29FA27FD95E4002A4E1B /* HomePageControllerViewController.swift */; };
+		909B29FD27FD9875002A4E1B /* SongDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909B29FC27FD9875002A4E1B /* SongDetailController.swift */; };
+		909B29FF27FDD9D5002A4E1B /* StoryBookControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909B29FE27FDD9D5002A4E1B /* StoryBookControllerView.swift */; };
+		909B2A0327FDF131002A4E1B /* StoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909B2A0227FDF130002A4E1B /* StoryController.swift */; };
 		90F6C32927FC812600B55C3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F6C32827FC812600B55C3F /* AppDelegate.swift */; };
 		90F6C32B27FC812600B55C3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F6C32A27FC812600B55C3F /* SceneDelegate.swift */; };
 		90F6C32D27FC812600B55C3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F6C32C27FC812600B55C3F /* ViewController.swift */; };
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		909B29FA27FD95E4002A4E1B /* HomePageControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageControllerViewController.swift; sourceTree = "<group>"; };
+		909B29FC27FD9875002A4E1B /* SongDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetailController.swift; sourceTree = "<group>"; };
+		909B29FE27FDD9D5002A4E1B /* StoryBookControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBookControllerView.swift; sourceTree = "<group>"; };
+		909B2A0227FDF130002A4E1B /* StoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryController.swift; sourceTree = "<group>"; };
 		90F6C32527FC812600B55C3F /* crescendo_mc1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crescendo_mc1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F6C32827FC812600B55C3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90F6C32A27FC812600B55C3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,8 +110,12 @@
 			isa = PBXGroup;
 			children = (
 				90F6C32827FC812600B55C3F /* AppDelegate.swift */,
+				909B29FE27FDD9D5002A4E1B /* StoryBookControllerView.swift */,
+				909B2A0227FDF130002A4E1B /* StoryController.swift */,
 				90F6C32A27FC812600B55C3F /* SceneDelegate.swift */,
 				90F6C32C27FC812600B55C3F /* ViewController.swift */,
+				909B29FA27FD95E4002A4E1B /* HomePageControllerViewController.swift */,
+				909B29FC27FD9875002A4E1B /* SongDetailController.swift */,
 				90F6C32E27FC812600B55C3F /* Main.storyboard */,
 				90F6C33427FC812700B55C3F /* Assets.xcassets */,
 				90F6C33627FC812700B55C3F /* LaunchScreen.storyboard */,
@@ -263,8 +275,12 @@
 			files = (
 				90F6C33327FC812600B55C3F /* crescendo_mc1.xcdatamodeld in Sources */,
 				90F6C32D27FC812600B55C3F /* ViewController.swift in Sources */,
+				909B29FF27FDD9D5002A4E1B /* StoryBookControllerView.swift in Sources */,
 				90F6C32927FC812600B55C3F /* AppDelegate.swift in Sources */,
+				909B2A0327FDF131002A4E1B /* StoryController.swift in Sources */,
+				909B29FD27FD9875002A4E1B /* SongDetailController.swift in Sources */,
 				90F6C32B27FC812600B55C3F /* SceneDelegate.swift in Sources */,
+				909B29FB27FD95E4002A4E1B /* HomePageControllerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
