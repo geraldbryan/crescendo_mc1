@@ -22,6 +22,7 @@ class SongDetailController: UIViewController {
     @IBOutlet weak var musicCoverImage: UIImageView!
     @IBOutlet weak var readStory: UIButton!
     @IBOutlet weak var listenSong: UIButton!
+    @IBOutlet weak var pageBefore: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()

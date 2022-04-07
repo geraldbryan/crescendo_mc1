@@ -26,7 +26,7 @@ class StoryBookControllerView: UIViewController {
         
         storyFrontTitle.text = storyTitle
         storyFrontSong.text = "Cerita Mengenai Lagu Daerah \(storySong)"
-        storyDuration.text = "\(storyMinutes) Mins"
+        storyDuration.text = "\(storyMinutes) Menit"
         storyImageCover.image = coverImage
 
         // Do any additional setup after loading the view.

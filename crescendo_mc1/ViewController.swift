@@ -11,6 +11,7 @@ class ViewController: UIViewController {
     //Data "TOKECANG" Song
     var songTitle = "Tokecang"
     var songAuthor = "R.C. Hardjosubroto"
+    var songComposer = "VJ Raja Olan"
     var songArea = "Jawa Barat"
     var originalLyrics = "Tokecang tokecang bala gendir tosblong \n\nAngeun kacang angeun kacang sapependil kosong \n\nAya listrik di masigit meuni caang katingalna \n\nAya istri jangkung alit karangan dina pipina \n\nTokecang tokecang bala gendir tosblong \n\nAngeun kacang angeun kacang sapependil kosong."
     
@@ -23,7 +24,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var backgroundImage: UIImageView!
     
     @IBOutlet weak var lyricsView: UITextView!
-    @IBOutlet weak var indoLyricsVier: UITextView!
+    @IBOutlet weak var composerName: UILabel!
     
     @IBOutlet weak var musicDuration: UISlider!
     
@@ -43,14 +44,30 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         //Setup background image
-        backgroundImage.image = backImage
+        //backgroundImage.image = backImage
         
         //Setup Image cover
         coverImage.image = backImage
         
         //Setup Original Lyrics
         lyricsView.text = originalLyrics
+        
+        composerName.text = songComposer
+        
+        musicAuthor.text = songAuthor
         // Do any additional setup after loading the view.
+    }
+    
+    @IBAction func pressButton(_ sender: Any) {
+        
+        if isPlaying == true {
+            playButton.setImage(UIImage(systemName: "play.circle.fill"), for: .normal)
+            isPlaying = false
+        } else {
+            playButton.setImage(UIImage(systemName: "pause.circle.fill"), for: .normal)
+            isPlaying = true
+        }
+        
     }
 
 
