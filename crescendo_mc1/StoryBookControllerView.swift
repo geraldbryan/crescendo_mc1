@@ -17,7 +17,7 @@ class StoryBookControllerView: UIViewController {
     @IBOutlet weak var storyImageCover: UIImageView!
     @IBOutlet weak var storyFrontTitle: UILabel!
     @IBOutlet weak var storyFrontSong: UILabel!
-    @IBOutlet weak var storyDuration: UILabel!
+    @IBOutlet weak var storyDuration: UIButton!
     @IBOutlet weak var songDetailButton: UIButton!
     @IBOutlet weak var startStory: UIButton!
 
@@ -26,7 +26,7 @@ class StoryBookControllerView: UIViewController {
         
         storyFrontTitle.text = storyTitle
         storyFrontSong.text = "Cerita Mengenai Lagu Daerah \(storySong)"
-        storyDuration.text = "\(storyMinutes) Menit"
+        storyDuration.setTitle("\(storyMinutes) Menit Membaca", for: .normal)
         storyImageCover.image = coverImage
 
         // Do any additional setup after loading the view.

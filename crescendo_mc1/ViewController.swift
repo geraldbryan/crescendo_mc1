@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
     //Data "TOKECANG" Song
@@ -18,6 +19,10 @@ class ViewController: UIViewController {
     var indonesianLyrics = "Tokecang tokecang mencuri kenndil bolong \nSayur kacang sayur kacang seperiuk kosong \nAda listrik di masigit begitu terang terlihat \nAda perempuan tinggi langsing ada tahi lalat di pipinya \nTokecang tokecang bala gendir tosblong \nSayur kacang sayur kacang seperiuk kosong."
     
     var backImage: UIImage = UIImage(named: "child-eat.jpeg")!
+    
+    var tokecangSong = AVAudioPlayer()
+    
+    var isPlaying = false
     
     //IBOutlet
     @IBOutlet weak var coverImage: UIImageView!
@@ -38,10 +43,23 @@ class ViewController: UIViewController {
     
     
     //Data Control
-    var isPlaying = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //Tokecang Music
+        let path = Bundle.main.path(forResource: "tokecang", ofType: ".mp3")!
+        
+        let url = URL(fileURLWithPath: path)
+        
+        do {
+            tokecangSong = try AVAudioPlayer(contentsOf: url)
+            
+            tokecangSong.prepareToPlay()
+            }
+        catch let error as NSError {
+            print(error.description)
+        }
         
         //Setup background image
         //backgroundImage.image = backImage
@@ -60,12 +78,16 @@ class ViewController: UIViewController {
     
     @IBAction func pressButton(_ sender: Any) {
         
-        if isPlaying == true {
-            playButton.setImage(UIImage(systemName: "play.circle.fill"), for: .normal)
-            isPlaying = false
-        } else {
+        if isPlaying == false {
+            //setup player and play
             playButton.setImage(UIImage(systemName: "pause.circle.fill"), for: .normal)
+            tokecangSong.play()
             isPlaying = true
+        } else {
+            // stop playing
+            playButton.setImage(UIImage(systemName: "play.circle.fill"), for: .normal)
+            tokecangSong.pause()
+            isPlaying = false
         }
         
     }
