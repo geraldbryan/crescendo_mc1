@@ -14,9 +14,9 @@ class MapIslandController: UIViewController {
         areaImage.image = islandImage[currIsland]
      }
     
-    var islandName = ["Jawa","Sumatera","Kalimantan","Sulawesi","Papua"]
+    var islandName = ["Jawa","Kalimantan"]
     
-    var islandImage = [UIImage(named: "happy.jpeg"),UIImage(named: "10000-hours.jpeg"), UIImage(named: "happy.jpeg"),UIImage(named: "child-eat.jpeg"),UIImage(named: "happy.jpeg")]
+    var islandImage = [UIImage(named: "happy.jpeg"),UIImage(named: "background-song.png"), UIImage(named: "happy.jpeg"),UIImage(named: "child-eat.jpeg"),UIImage(named: "happy.jpeg")]
     
     var currIsland: Int = 0
     
@@ -56,7 +56,12 @@ class MapIslandController: UIViewController {
             currIsland -= 1
         }
         ChangeArea()
-        
+    }
+    
+    @IBAction func selectButton(_ sender: Any) {
+        if currIsland == 0 {
+            performSegue(withIdentifier: "NextPage", sender: self)
+        }
     }
     /*
     // MARK: - Navigation

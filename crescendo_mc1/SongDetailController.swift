@@ -10,7 +10,7 @@ import UIKit
 class SongDetailController: UIViewController {
     
     //Variables
-    var coverImage: UIImage = UIImage(named: "child-eat.jpeg")!
+    var coverImage: UIImage = UIImage(named: "happy.jpeg")!
     var songTitle = "Tokecang"
     var songWriter = "R. C. Hardjosubroto"
     var songPlace = "Jawa Barat"

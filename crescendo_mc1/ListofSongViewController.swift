@@ -27,9 +27,9 @@ class ListofSongViewController: UIViewController {
         
         songAuthor.text = "R.C. Hardjosubroto"
         
-        songImage.image = UIImage(named: "child-eat.jpeg")!
+        songImage.image = UIImage(named: "happy.jpeg")!
         
-        headerImage.image = UIImage(named: "child-eat.jpeg")!
+        headerImage.image = UIImage(named: "happy.jpeg")!
     }
     
 

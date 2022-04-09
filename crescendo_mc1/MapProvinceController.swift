@@ -14,9 +14,9 @@ class MapProvinceController: UIViewController {
         areaImage.image = islandImage[currProvince]
      }
     
-    var provinceName = ["Jawa Barat", "Jawa Tengah", "Jawa Timur", "DKI Jakarta", "DI Yogyakarta", "Banten"]
+    var provinceName = ["Jawa Barat", "DKI Jakarta"]
     
-    var islandImage = [UIImage(named: "happy.jpeg"),UIImage(named: "10000-hours.jpeg"), UIImage(named: "happy.jpeg"),UIImage(named: "child-eat.jpeg"),UIImage(named: "happy.jpeg"),UIImage(named: "child-eat.jpeg")]
+    var islandImage = [UIImage(named: "happy.jpeg"),UIImage(named: "background-song.png")]
     
     var currProvince: Int = 0
     
@@ -52,7 +52,12 @@ class MapProvinceController: UIViewController {
             currProvince -= 1
         }
         ChangeArea()
-        
+    }
+    
+    @IBAction func selectButton(_ sender: Any) {
+        if currProvince == 0 {
+            performSegue(withIdentifier: "NextPage", sender: self)
+        }
     }
     /*
     // MARK: - Navigation
