@@ -29,7 +29,7 @@ class ListofSongViewController: UIViewController {
         
         songImage.image = UIImage(named: "happy.jpeg")!
         
-        headerImage.image = UIImage(named: "happy.jpeg")!
+        headerImage.image = UIImage(named: "listsong_banner.png")!
     }
     
 

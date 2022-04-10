@@ -16,7 +16,7 @@ class MapProvinceController: UIViewController {
     
     var provinceName = ["Jawa Barat", "DKI Jakarta"]
     
-    var islandImage = [UIImage(named: "happy.jpeg"),UIImage(named: "background-song.png")]
+    var islandImage = [UIImage(named: "jawa_barat.png"),UIImage(named: "jakarta.png")]
     
     var currProvince: Int = 0
     

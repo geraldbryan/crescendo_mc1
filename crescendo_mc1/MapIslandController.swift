@@ -16,7 +16,7 @@ class MapIslandController: UIViewController {
     
     var islandName = ["Jawa","Kalimantan"]
     
-    var islandImage = [UIImage(named: "happy.jpeg"),UIImage(named: "background-song.png"), UIImage(named: "happy.jpeg"),UIImage(named: "child-eat.jpeg"),UIImage(named: "happy.jpeg")]
+    var islandImage = [UIImage(named: "jawa.png"),UIImage(named: "kalimantan.png")]
     
     var currIsland: Int = 0
     

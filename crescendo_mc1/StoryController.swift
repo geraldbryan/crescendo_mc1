@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class StoryController: UIViewController {
     
@@ -19,6 +20,10 @@ class StoryController: UIViewController {
     var imageBackground = [UIImage(named: "happy.jpeg"),UIImage(named: "background-song.png"),UIImage(named: "happy.jpeg"),UIImage(named: "background-song.png"),UIImage(named: "happy.jpeg")]
         
     var currStory: Int = 0
+    
+    var isMute: Int = 0
+    
+    var tokecangSong = AVAudioPlayer()
     
     @IBOutlet weak var storyImage: UIImageView!
     @IBOutlet weak var previousButton: UIButton!
@@ -36,12 +41,27 @@ class StoryController: UIViewController {
         
         super.viewDidLoad()
         
+        let path = Bundle.main.path(forResource: "voiceover_tokecang", ofType: ".mp3")!
+        
+        let url = URL(fileURLWithPath: path)
+        
+        do {
+            tokecangSong = try AVAudioPlayer(contentsOf: url)
+            
+            tokecangSong.prepareToPlay()
+            }
+        catch let error as NSError {
+            print(error.description)
+        }
+        
+        tokecangSong.play()
         // Do any additional setup after loading the view.
     }
     
     @IBAction func pressNext(_ sender: Any) {
         if currStory ==  storyTemplate.count-1 {
             performSegue(withIdentifier: "Moral", sender: self)
+            tokecangSong.stop()
         } else if currStory ==  storyTemplate.count-2{
             currStory += 1
             nextButton.setTitle("Waktunya Kuis", for: .normal)
@@ -55,6 +75,7 @@ class StoryController: UIViewController {
     @IBAction func pressPrevious(_ sender: Any) {
         if currStory == 0 {
             performSegue(withIdentifier: "StoryTitle", sender: self)
+            tokecangSong.stop()
         } else if currStory == 1{
             currStory -= 1
             previousButton.setTitle("Kembali", for: .normal)
@@ -63,6 +84,19 @@ class StoryController: UIViewController {
             nextButton.setTitle("Selanjutnya", for: .normal)
         }
         ChangeStory()
+    }
+    
+    @IBAction func muteVO(_ sender: Any) {
+        if isMute == 0 {
+            tokecangSong.volume = 1.0
+            voiceOverMute.setImage(UIImage(named: "speaker.slash.fill"), for: .normal)
+            isMute = 1
+        } else {
+            tokecangSong.volume = 0.0
+            voiceOverMute.setImage(UIImage(named: "speaker.fill"), for: .normal)
+            isMute = 0
+        }
+        
     }
     /*
     // MARK: - Navigation
