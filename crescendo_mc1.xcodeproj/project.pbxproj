@@ -14,6 +14,7 @@
 		9004B24E28007B860000391D /* tokecang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9004B24D28007B860000391D /* tokecang.mp3 */; };
 		909287B22802EF7900B62380 /* voiceover_tokecang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 909287B12802EF7900B62380 /* voiceover_tokecang.mp3 */; };
 		909287B42802F28600B62380 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909287B32802F28600B62380 /* SplashViewController.swift */; };
+		909287BA280407CE00B62380 /* 4 Sec_Logo.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 909287B9280407CE00B62380 /* 4 Sec_Logo.MOV */; };
 		909B29FB27FD95E4002A4E1B /* HomePageControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909B29FA27FD95E4002A4E1B /* HomePageControllerViewController.swift */; };
 		909B29FD27FD9875002A4E1B /* SongDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909B29FC27FD9875002A4E1B /* SongDetailController.swift */; };
 		909B29FF27FDD9D5002A4E1B /* StoryBookControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909B29FE27FDD9D5002A4E1B /* StoryBookControllerView.swift */; };
@@ -28,7 +29,6 @@
 		90F6C34327FC812700B55C3F /* crescendo_mc1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F6C34227FC812700B55C3F /* crescendo_mc1Tests.swift */; };
 		90F6C34D27FC812700B55C3F /* crescendo_mc1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F6C34C27FC812700B55C3F /* crescendo_mc1UITests.swift */; };
 		90F6C34F27FC812700B55C3F /* crescendo_mc1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F6C34E27FC812700B55C3F /* crescendo_mc1UITestsLaunchTests.swift */; };
-		E28240B4280400CD00C56D45 /* 4 Sec_Logo.MOV in Resources */ = {isa = PBXBuildFile; fileRef = E28240B3280400CD00C56D45 /* 4 Sec_Logo.MOV */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +56,7 @@
 		9004B24D28007B860000391D /* tokecang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tokecang.mp3; sourceTree = "<group>"; };
 		909287B12802EF7900B62380 /* voiceover_tokecang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = voiceover_tokecang.mp3; sourceTree = "<group>"; };
 		909287B32802F28600B62380 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		909287B9280407CE00B62380 /* 4 Sec_Logo.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "4 Sec_Logo.MOV"; sourceTree = "<group>"; };
 		909B29FA27FD95E4002A4E1B /* HomePageControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageControllerViewController.swift; sourceTree = "<group>"; };
 		909B29FC27FD9875002A4E1B /* SongDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetailController.swift; sourceTree = "<group>"; };
 		909B29FE27FDD9D5002A4E1B /* StoryBookControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBookControllerView.swift; sourceTree = "<group>"; };
@@ -74,7 +75,6 @@
 		90F6C34827FC812700B55C3F /* crescendo_mc1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = crescendo_mc1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F6C34C27FC812700B55C3F /* crescendo_mc1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crescendo_mc1UITests.swift; sourceTree = "<group>"; };
 		90F6C34E27FC812700B55C3F /* crescendo_mc1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crescendo_mc1UITestsLaunchTests.swift; sourceTree = "<group>"; };
-		E28240B3280400CD00C56D45 /* 4 Sec_Logo.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "4 Sec_Logo.MOV"; path = "../../../Downloads/4 Sec_Logo.MOV"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,8 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				9004B24D28007B860000391D /* tokecang.mp3 */,
+				909287B9280407CE00B62380 /* 4 Sec_Logo.MOV */,
 				909287B12802EF7900B62380 /* voiceover_tokecang.mp3 */,
-				E28240B3280400CD00C56D45 /* 4 Sec_Logo.MOV */,
 				9004B249280043A10000391D /* MapIslandController.swift */,
 				9004B24527FF15A10000391D /* MapProvinceController.swift */,
 				9004B247280029B40000391D /* ListofSongViewController.swift */,
@@ -273,7 +273,7 @@
 				90F6C33827FC812700B55C3F /* LaunchScreen.storyboard in Resources */,
 				90F6C33527FC812700B55C3F /* Assets.xcassets in Resources */,
 				9004B24E28007B860000391D /* tokecang.mp3 in Resources */,
-				E28240B4280400CD00C56D45 /* 4 Sec_Logo.MOV in Resources */,
+				909287BA280407CE00B62380 /* 4 Sec_Logo.MOV in Resources */,
 				909287B22802EF7900B62380 /* voiceover_tokecang.mp3 in Resources */,
 				90F6C33027FC812600B55C3F /* Main.storyboard in Resources */,
 			);
