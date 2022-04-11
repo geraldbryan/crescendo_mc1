@@ -27,6 +27,10 @@ class SplashViewController: UIViewController {
         view.layer.addSublayer(layer)
         
         player.play()
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 4.3) { [unowned self] in
+            self.performSegue(withIdentifier: "HomePage", sender: nil)
+        }
     }
     
 

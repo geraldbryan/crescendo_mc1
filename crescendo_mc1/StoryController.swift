@@ -25,6 +25,7 @@ class StoryController: UIViewController {
     
     var tokecangSong = AVAudioPlayer()
     
+    
     @IBOutlet weak var storyImage: UIImageView!
     @IBOutlet weak var previousButton: UIButton!
     @IBOutlet weak var nextButton: UIButton!
@@ -86,14 +87,14 @@ class StoryController: UIViewController {
         ChangeStory()
     }
     
-    @IBAction func muteVO(_ sender: Any) {
+    @IBAction func muteVO(_ sender: UIButton) {
         if isMute == 0 {
             tokecangSong.volume = 1.0
-            voiceOverMute.setImage(UIImage(named: "speaker.slash.fill"), for: .normal)
+            sender.setImage(UIImage(systemName: "speaker.fill"), for: .normal)
             isMute = 1
         } else {
             tokecangSong.volume = 0.0
-            voiceOverMute.setImage(UIImage(named: "speaker.fill"), for: .normal)
+            sender.setImage(UIImage(systemName: "speaker.slash.fill"), for: .normal)
             isMute = 0
         }
         

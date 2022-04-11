@@ -14,9 +14,9 @@ class MapProvinceController: UIViewController {
         areaImage.image = islandImage[currProvince]
      }
     
-    var provinceName = ["Jawa Barat", "DKI Jakarta"]
+    var provinceName = ["DKI Jakarta","Jawa Barat"]
     
-    var islandImage = [UIImage(named: "jawa_barat.png"),UIImage(named: "jakarta.png")]
+    var islandImage = [UIImage(named: "jakarta.png"),UIImage(named: "jawa_barat.png")]
     
     var currProvince: Int = 0
     
@@ -55,7 +55,7 @@ class MapProvinceController: UIViewController {
     }
     
     @IBAction func selectButton(_ sender: Any) {
-        if currProvince == 0 {
+        if currProvince == 1 {
             performSegue(withIdentifier: "NextPage", sender: self)
         }
     }

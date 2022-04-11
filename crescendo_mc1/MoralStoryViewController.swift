@@ -35,7 +35,7 @@ class MoralStoryViewController: UIViewController {
         let location = touch.location(in: view)
         
         answerOne.frame.origin.x = location.x
-        answerOne.frame.origin.x = location.y
+        answerOne.frame.origin.y = location.y
     }
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {

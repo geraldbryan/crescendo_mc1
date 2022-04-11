@@ -14,9 +14,9 @@ class MapIslandController: UIViewController {
         areaImage.image = islandImage[currIsland]
      }
     
-    var islandName = ["Jawa","Kalimantan"]
+    var islandName = ["Kalimantan","Jawa"]
     
-    var islandImage = [UIImage(named: "jawa.png"),UIImage(named: "kalimantan.png")]
+    var islandImage = [UIImage(named: "kalimantan.png"),UIImage(named: "jawa.png")]
     
     var currIsland: Int = 0
     
@@ -59,7 +59,7 @@ class MapIslandController: UIViewController {
     }
     
     @IBAction func selectButton(_ sender: Any) {
-        if currIsland == 0 {
+        if currIsland == 1 {
             performSegue(withIdentifier: "NextPage", sender: self)
         }
     }

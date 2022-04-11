@@ -10,6 +10,7 @@ import UIKit
 import AVFoundation
 
 class ViewController: UIViewController, AVAudioPlayerDelegate {
+    
     //Data "TOKECANG" Song
     var songTitle = "Tokecang"
     var songAuthor = "R.C. Hardjosubroto"
@@ -24,6 +25,9 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     var covImage: UIImage = UIImage(named: "happy.jpeg")!
     
     var tokecangSong = AVAudioPlayer()
+    
+    // An animated UIImage
+    let Gif = UIImage.gif(name: "playsong")
     
     //var isPlaying = false
     
@@ -65,6 +69,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     @IBOutlet weak var timeLeft: UILabel!
     
     @IBOutlet weak var playButton: UIButton!
+    @IBOutlet weak var backPage: UIButton!
     
     func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
         playButton.setImage(UIImage(systemName: "play.fill"), for: .normal)
@@ -75,7 +80,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         super.viewDidLoad()
         
         //Tokecang Music
-        let path = Bundle.main.path(forResource: "tokecang", ofType: ".mp3")!
+        let path = Bundle.main.path(forResource: "tokecang_song", ofType: ".mp3")!
         
         let url = URL(fileURLWithPath: path)
         
@@ -92,7 +97,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         backgroundImage.image = backImage
         
         //Setup Image cover
-        coverImage.image = covImage
+        coverImage.image = Gif
         
         //Setup Original Lyrics
         lyricsView.text = originalLyrics
@@ -124,6 +129,11 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
             updateTime()
         }
         
+    }
+    
+    @IBAction func backPage(_ sender: Any) {
+        performSegue(withIdentifier: "BackPage", sender: self)
+        tokecangSong.stop()
     }
 
 

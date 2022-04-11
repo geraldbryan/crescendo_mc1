@@ -9,8 +9,8 @@ import UIKit
 
 class StoryBookControllerView: UIViewController {
     
-    var storyMinutes = 5
-    var storyTitle = "Diki yang Rakus"
+    var storyMinutes = 2
+    var storyTitle = "Gali Si Anak Rakus"
     var storySong = "Tokecang"
     var coverImage: UIImage = UIImage(named: "happy.jpeg")!
     
