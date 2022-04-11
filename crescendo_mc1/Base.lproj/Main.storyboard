@@ -115,7 +115,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="arrow.left" catalog="system">
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="18"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="05Q-m9-KWd" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="fGA-E9-h0w"/>
@@ -269,7 +269,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="arrow.left" catalog="system">
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="Jgd-ss-IHj" kind="presentation" modalPresentationStyle="fullScreen" id="jFo-8r-3px"/>
@@ -608,7 +608,7 @@
                                 <buttonConfiguration key="configuration" style="plain" image="arrow.left" catalog="system" imagePlacement="top">
                                     <backgroundConfiguration key="background"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="jD7-OQ-GO9" kind="presentation" modalPresentationStyle="fullScreen" id="VXm-MS-eRl"/>
@@ -693,7 +693,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="arrow.left" catalog="system">
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="0Mm-6g-fkn" kind="presentation" modalPresentationStyle="fullScreen" id="ZiU-qT-28r"/>
@@ -822,9 +822,9 @@
     <inferredMetricsTieBreakers>
         <segue reference="ZiU-qT-28r"/>
         <segue reference="VXm-MS-eRl"/>
-        <segue reference="MgS-QX-1Av"/>
-        <segue reference="gnX-Z1-gQh"/>
-        <segue reference="8LD-Dp-8Xx"/>
+        <segue reference="jFo-8r-3px"/>
+        <segue reference="z51-gA-DOW"/>
+        <segue reference="fGA-E9-h0w"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrow.left" catalog="system" width="128" height="98"/>
