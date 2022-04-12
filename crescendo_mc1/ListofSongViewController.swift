@@ -6,8 +6,11 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ListofSongViewController: UIViewController {
+    
+    var tokecangSong = AVAudioPlayer()
     
     @IBOutlet weak var headerImage: UIImageView!
     @IBOutlet weak var provinceName: UITextField!
@@ -19,6 +22,19 @@ class ListofSongViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let path = Bundle.main.path(forResource: "tokecang_preview", ofType: ".mp3")!
+        
+        let url = URL(fileURLWithPath: path)
+        
+        do {
+            tokecangSong = try AVAudioPlayer(contentsOf: url)
+            
+            tokecangSong.prepareToPlay()
+            }
+        catch let error as NSError {
+            print(error.description)
+        }
 
         // Do any additional setup after loading the view.
         provinceName.text = "Jawa Barat"
@@ -32,6 +48,11 @@ class ListofSongViewController: UIViewController {
         headerImage.image = UIImage(named: "listsong_banner.png")!
     }
     
+    @IBAction func pressPreview(_ sender: Any){
+        tokecangSong.play()
+        tokecangSong.volume = 0.5
+        
+    }
 
     /*
     // MARK: - Navigation

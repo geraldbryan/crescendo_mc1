@@ -12,11 +12,17 @@
 		9004B24A280043A10000391D /* MapIslandController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9004B249280043A10000391D /* MapIslandController.swift */; };
 		9004B24C2800777D0000391D /* MoralStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9004B24B2800777D0000391D /* MoralStoryViewController.swift */; };
 		9004B24E28007B860000391D /* tokecang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9004B24D28007B860000391D /* tokecang.mp3 */; };
+		900E43E72805568600EB88A2 /* playsong.gif in Resources */ = {isa = PBXBuildFile; fileRef = 900E43E62805568600EB88A2 /* playsong.gif */; };
+		900E43E928055C7500EB88A2 /* RightAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900E43E828055C7500EB88A2 /* RightAnswerViewController.swift */; };
+		900E43EB28055CD700EB88A2 /* WrongAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900E43EA28055CD700EB88A2 /* WrongAnswerViewController.swift */; };
+		900E43EF28055D7500EB88A2 /* coba_lagi.gif in Resources */ = {isa = PBXBuildFile; fileRef = 900E43EE28055D7500EB88A2 /* coba_lagi.gif */; };
+		900E43F3280562EE00EB88A2 /* true_answer.gif in Resources */ = {isa = PBXBuildFile; fileRef = 900E43F2280562EE00EB88A2 /* true_answer.gif */; };
+		900E43F72805654000EB88A2 /* coba-lagi-unscreen.gif in Resources */ = {isa = PBXBuildFile; fileRef = 900E43F62805653F00EB88A2 /* coba-lagi-unscreen.gif */; };
+		900E43FD2805709000EB88A2 /* tokecang_preview.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 900E43FC2805709000EB88A2 /* tokecang_preview.mp3 */; };
 		909287B22802EF7900B62380 /* voiceover_tokecang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 909287B12802EF7900B62380 /* voiceover_tokecang.mp3 */; };
 		909287B42802F28600B62380 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909287B32802F28600B62380 /* SplashViewController.swift */; };
 		909287BA280407CE00B62380 /* 4 Sec_Logo.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 909287B9280407CE00B62380 /* 4 Sec_Logo.MOV */; };
 		909287C228040B4E00B62380 /* tokecang_song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 909287C128040B4E00B62380 /* tokecang_song.mp3 */; };
-		909287C428040E9100B62380 /* playsong.gif in Resources */ = {isa = PBXBuildFile; fileRef = 909287C328040E9100B62380 /* playsong.gif */; };
 		909287C628040FD200B62380 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909287C528040FD200B62380 /* UIImage+Gif.swift */; };
 		909287C8280425FB00B62380 /* MoralQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909287C7280425FB00B62380 /* MoralQuestionViewController.swift */; };
 		909B29FB27FD95E4002A4E1B /* HomePageControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909B29FA27FD95E4002A4E1B /* HomePageControllerViewController.swift */; };
@@ -58,11 +64,17 @@
 		9004B249280043A10000391D /* MapIslandController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapIslandController.swift; sourceTree = "<group>"; };
 		9004B24B2800777D0000391D /* MoralStoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoralStoryViewController.swift; sourceTree = "<group>"; };
 		9004B24D28007B860000391D /* tokecang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tokecang.mp3; sourceTree = "<group>"; };
+		900E43E62805568600EB88A2 /* playsong.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = playsong.gif; sourceTree = "<group>"; };
+		900E43E828055C7500EB88A2 /* RightAnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightAnswerViewController.swift; sourceTree = "<group>"; };
+		900E43EA28055CD700EB88A2 /* WrongAnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrongAnswerViewController.swift; sourceTree = "<group>"; };
+		900E43EE28055D7500EB88A2 /* coba_lagi.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = coba_lagi.gif; sourceTree = "<group>"; };
+		900E43F2280562EE00EB88A2 /* true_answer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = true_answer.gif; sourceTree = "<group>"; };
+		900E43F62805653F00EB88A2 /* coba-lagi-unscreen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "coba-lagi-unscreen.gif"; sourceTree = "<group>"; };
+		900E43FC2805709000EB88A2 /* tokecang_preview.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tokecang_preview.mp3; sourceTree = "<group>"; };
 		909287B12802EF7900B62380 /* voiceover_tokecang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = voiceover_tokecang.mp3; sourceTree = "<group>"; };
 		909287B32802F28600B62380 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		909287B9280407CE00B62380 /* 4 Sec_Logo.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "4 Sec_Logo.MOV"; sourceTree = "<group>"; };
 		909287C128040B4E00B62380 /* tokecang_song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tokecang_song.mp3; sourceTree = "<group>"; };
-		909287C328040E9100B62380 /* playsong.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = playsong.gif; sourceTree = "<group>"; };
 		909287C528040FD200B62380 /* UIImage+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
 		909287C7280425FB00B62380 /* MoralQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoralQuestionViewController.swift; sourceTree = "<group>"; };
 		909B29FA27FD95E4002A4E1B /* HomePageControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageControllerViewController.swift; sourceTree = "<group>"; };
@@ -135,8 +147,12 @@
 			children = (
 				9004B24D28007B860000391D /* tokecang.mp3 */,
 				909287C128040B4E00B62380 /* tokecang_song.mp3 */,
-				909287C328040E9100B62380 /* playsong.gif */,
+				900E43F2280562EE00EB88A2 /* true_answer.gif */,
+				900E43F62805653F00EB88A2 /* coba-lagi-unscreen.gif */,
+				900E43E62805568600EB88A2 /* playsong.gif */,
+				900E43EE28055D7500EB88A2 /* coba_lagi.gif */,
 				909287B9280407CE00B62380 /* 4 Sec_Logo.MOV */,
+				900E43FC2805709000EB88A2 /* tokecang_preview.mp3 */,
 				909287B12802EF7900B62380 /* voiceover_tokecang.mp3 */,
 				9004B249280043A10000391D /* MapIslandController.swift */,
 				9004B24527FF15A10000391D /* MapProvinceController.swift */,
@@ -152,6 +168,8 @@
 				909287B32802F28600B62380 /* SplashViewController.swift */,
 				909B29FA27FD95E4002A4E1B /* HomePageControllerViewController.swift */,
 				909B29FC27FD9875002A4E1B /* SongDetailController.swift */,
+				900E43E828055C7500EB88A2 /* RightAnswerViewController.swift */,
+				900E43EA28055CD700EB88A2 /* WrongAnswerViewController.swift */,
 				90F6C32E27FC812600B55C3F /* Main.storyboard */,
 				90F6C33427FC812700B55C3F /* Assets.xcassets */,
 				90F6C33627FC812700B55C3F /* LaunchScreen.storyboard */,
@@ -284,12 +302,16 @@
 			files = (
 				90F6C33827FC812700B55C3F /* LaunchScreen.storyboard in Resources */,
 				909287C228040B4E00B62380 /* tokecang_song.mp3 in Resources */,
+				900E43F3280562EE00EB88A2 /* true_answer.gif in Resources */,
 				90F6C33527FC812700B55C3F /* Assets.xcassets in Resources */,
 				9004B24E28007B860000391D /* tokecang.mp3 in Resources */,
+				900E43EF28055D7500EB88A2 /* coba_lagi.gif in Resources */,
 				909287BA280407CE00B62380 /* 4 Sec_Logo.MOV in Resources */,
-				909287C428040E9100B62380 /* playsong.gif in Resources */,
+				900E43E72805568600EB88A2 /* playsong.gif in Resources */,
 				909287B22802EF7900B62380 /* voiceover_tokecang.mp3 in Resources */,
 				90F6C33027FC812600B55C3F /* Main.storyboard in Resources */,
+				900E43F72805654000EB88A2 /* coba-lagi-unscreen.gif in Resources */,
+				900E43FD2805709000EB88A2 /* tokecang_preview.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +343,7 @@
 				90F6C33327FC812600B55C3F /* crescendo_mc1.xcdatamodeld in Sources */,
 				90F6C32D27FC812600B55C3F /* ViewController.swift in Sources */,
 				909B29FF27FDD9D5002A4E1B /* StoryBookControllerView.swift in Sources */,
+				900E43E928055C7500EB88A2 /* RightAnswerViewController.swift in Sources */,
 				909287B42802F28600B62380 /* SplashViewController.swift in Sources */,
 				909287C8280425FB00B62380 /* MoralQuestionViewController.swift in Sources */,
 				90F6C32927FC812600B55C3F /* AppDelegate.swift in Sources */,
@@ -329,6 +352,7 @@
 				90F6C32B27FC812600B55C3F /* SceneDelegate.swift in Sources */,
 				909B29FB27FD95E4002A4E1B /* HomePageControllerViewController.swift in Sources */,
 				9004B24A280043A10000391D /* MapIslandController.swift in Sources */,
+				900E43EB28055CD700EB88A2 /* WrongAnswerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

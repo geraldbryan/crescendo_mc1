@@ -16,7 +16,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     var songAuthor = "R.C. Hardjosubroto"
     var songComposer = "VJ Raja Olan"
     var songArea = "Jawa Barat"
-    var originalLyrics = "Tokecang tokecang bala gendir tosblong \n\nAngeun kacang angeun kacang sapependil kosong \n\nAya listrik di masigit meuni caang katingalna \n\nAya istri jangkung alit karangan dina pipina \n\nTokecang tokecang bala gendir tosblong \n\nAngeun kacang angeun kacang sapependil kosong."
+    var originalLyrics = "Tokecang tokecang bala gendir tosblong \n\nAngeun kacang angeun kacang sapariuk kosong \n\nAya listrik di masigit meuni caang katingalna \n\nAya istri jangkung alit karangan dina pipina."
     
     var indonesianLyrics = "Tokecang tokecang mencuri kenndil bolong \nSayur kacang sayur kacang seperiuk kosong \nAda listrik di masigit begitu terang terlihat \nAda perempuan tinggi langsing ada tahi lalat di pipinya \nTokecang tokecang bala gendir tosblong \nSayur kacang sayur kacang seperiuk kosong."
     
@@ -32,15 +32,15 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     //var isPlaying = false
     
     @objc func updateTime() {
-        var currentTime = Int(tokecangSong.currentTime)
-        var duration = Int(tokecangSong.duration)
-        var total = duration - currentTime
+        let currentTime = Int(tokecangSong.currentTime)
+        let duration = Int(tokecangSong.duration)
+        let total = duration - currentTime
 
-        var minutes = currentTime/60
-        var seconds = currentTime % 60
+        let minutes = currentTime/60
+        let seconds = currentTime % 60
         
-        var minutesLeft = total/60
-        var secondsLeft = total % 60
+        let minutesLeft = total/60
+        let secondsLeft = total % 60
 
         currTime.text = NSString(format: "%02d:%02d", minutes,seconds) as String
         timeLeft.text = NSString(format: "%02d:%02d", minutesLeft,secondsLeft) as String
