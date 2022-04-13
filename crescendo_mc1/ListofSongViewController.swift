@@ -21,6 +21,10 @@ class ListofSongViewController: UIViewController {
     @IBOutlet weak var mainSong: UIButton!
     @IBOutlet weak var comingSoon: UIImageView!
     
+    @IBOutlet weak var bgTextImage: UIImageView!
+    
+    @IBOutlet weak var bgUpcomingImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -49,6 +53,11 @@ class ListofSongViewController: UIViewController {
         songImage.image = UIImage(named: "tokecang_cover.png")!
         
         headerImage.image = UIImage(named: "listsong_banner.png")!
+        
+        bgTextImage.image = UIImage(named: "bg_songlist.png")!
+        
+        bgUpcomingImage.image = UIImage(named: "bg_upcoming.png")
+        
     }
     
     @IBAction func pressPreview(_ sender: Any){

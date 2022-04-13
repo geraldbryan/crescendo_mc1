@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Rf2-g5-Awz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Rf2-g5-Awz">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -82,12 +82,12 @@
                             <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="VHn-Vh-UDQ">
                                 <rect key="frame" x="41" y="638" width="313" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="minimumTrackTintColor" red="0.59607845540000004" green="0.86666667460000002" blue="0.79607844350000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="minimumTrackTintColor" red="0.51603392426560935" green="0.75944615269278348" blue="0.69348060831391267" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </slider>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="oval.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="NZ7-tK-gCb">
                                 <rect key="frame" x="172" y="742" width="53" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.58039218189999997" green="0.8392156959" blue="0.76862752440000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.50594340389983827" green="0.73137097940515461" blue="0.66777217558206736" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="17"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ccM-Bh-SlO">
@@ -236,7 +236,7 @@
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                    <color key="baseBackgroundColor" red="0.59607845540000004" green="0.86666667460000002" blue="0.79607844350000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.49614075498858051" green="0.73016941300206184" blue="0.66674684822021613" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="VzT-7b-HhR" kind="presentation" modalPresentationStyle="fullScreen" id="z51-gA-DOW"/>
@@ -261,7 +261,7 @@
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                    <color key="baseBackgroundColor" red="0.59607845540000004" green="0.86666667460000002" blue="0.79607844350000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.49898471575138781" green="0.73435486469072164" blue="0.67056875129106419" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="FU4-hh-jhK"/>
@@ -329,7 +329,7 @@
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                    <color key="baseBackgroundColor" red="0.59607845540000004" green="0.86666667460000002" blue="0.79607844350000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.52773176452135873" green="0.77666184212577316" blue="0.70920094179404369" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="6U4-30-MnN" kind="presentation" modalPresentationStyle="fullScreen" id="Spl-nJ-cIf"/>
@@ -361,7 +361,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="3 Menit Membaca" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="16"/>
-                                    <color key="baseBackgroundColor" red="0.58039218189999997" green="0.8392156959" blue="0.76862752440000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.52264437415279696" green="0.7555132152298969" blue="0.68981504273714045" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Diki Yang Rakus" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wht-he-l1v">
@@ -413,7 +413,7 @@
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                    <color key="baseBackgroundColor" red="0.59607845540000004" green="0.86666667460000002" blue="0.79607844350000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.53834692208564627" green="0.79228414948453607" blue="0.72346629447508404" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressNext:" destination="6U4-30-MnN" eventType="touchUpInside" id="a9X-rM-VKk"/>
@@ -457,7 +457,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="oval.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="v7N-JG-7qG">
                                 <rect key="frame" x="338" y="471.33333333333337" width="42" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.58039218189999997" green="0.8392156959" blue="0.76862752440000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.53246704742272766" green="0.76971246778350522" blue="0.70277955190740327" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="23"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="379-f7-F6a">
@@ -527,7 +527,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Dihabiskan Semua" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="18"/>
-                                    <color key="baseBackgroundColor" red="0.58039218189999997" green="0.8392156959" blue="0.76862752440000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.49740754606601623" green="0.71903189432989689" blue="0.65650607682039841" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressFirst:" destination="V8s-pd-oJb" eventType="touchUpInside" id="Zyt-UH-1so"/>
@@ -540,7 +540,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Dibawa Kabur" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="18"/>
-                                    <color key="baseBackgroundColor" red="0.58039218189999997" green="0.8392156959" blue="0.76862752440000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.48291863006485852" green="0.69808731316804118" blue="0.63738280159763394" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressSecond:" destination="V8s-pd-oJb" eventType="touchUpInside" id="EZk-jn-Yiz"/>
@@ -553,7 +553,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Diambil secukupnya" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="18"/>
-                                    <color key="baseBackgroundColor" red="0.58039218189999997" green="0.8392156959" blue="0.76862752440000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.48465976541233124" green="0.70060422682783496" blue="0.63968084863214947" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressThird:" destination="V8s-pd-oJb" eventType="touchUpInside" id="wiK-be-Kzx"/>
@@ -633,7 +633,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Kembali ke Lagu" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="27"/>
-                                    <color key="baseBackgroundColor" red="0.58039218189999997" green="0.8392156959" blue="0.76862752440000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.54328727483243389" green="0.78535374358041232" blue="0.71706068837835657" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressFirst:" destination="V8s-pd-oJb" eventType="touchUpInside" id="aAD-4S-Ipl"/>
@@ -704,26 +704,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I0x-HM-pW7" userLabel="headerImage">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6UV-Ek-lue" userLabel="bg_upcoming">
+                                <rect key="frame" x="46" y="433" width="300" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cig-US-2Kx" userLabel="bg_songlist">
+                                <rect key="frame" x="28" y="287" width="338" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Jawa Barat" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Zp-Mm-joc">
                                 <rect key="frame" x="35" y="187" width="320" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.59607845540000004" green="0.86666667460000002" blue="0.79607844350000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.50812591061903256" green="0.74780794392989691" blue="0.68285329515424509" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="48"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="rectangle.fill" catalog="system" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bDZ-MJ-rcc">
-                                <rect key="frame" x="0.0" y="280" width="390" height="144"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="50"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="rectangle.dashed" catalog="system" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WYX-0T-CbR">
-                                <rect key="frame" x="8" y="437" width="382" height="95"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.59607845540000004" green="0.86666667460000002" blue="0.79607844350000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="46" weight="thin"/>
-                            </imageView>
                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AfZ-Ab-tbT">
                                 <rect key="frame" x="121" y="467" width="206" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -762,7 +762,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="eye.fill" catalog="system" title=" Lihat" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="10"/>
-                                    <color key="baseBackgroundColor" red="0.58039218189999997" green="0.8392156959" blue="0.76862752440000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.49205610836839558" green="0.71129607605463918" blue="0.64944295243477157" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="05Q-m9-KWd" kind="presentation" modalPresentationStyle="fullScreen" id="8LD-Dp-8Xx"/>
@@ -803,7 +803,10 @@
                         <color key="backgroundColor" red="0.94509804249999996" green="1" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
+                        <outlet property="bgTextImage" destination="cig-US-2Kx" id="FK4-Ug-L3O"/>
+                        <outlet property="bgUpcomingImage" destination="6UV-Ek-lue" id="Rmc-MJ-fud"/>
                         <outlet property="comingSoon" destination="7GL-mh-AA5" id="ubx-gF-615"/>
+                        <outlet property="headerImage" destination="I0x-HM-pW7" id="tOU-oO-7lW"/>
                         <outlet property="mainSong" destination="cGR-Bx-9Sl" id="6Uq-0k-lly"/>
                         <outlet property="previewSong" destination="gxa-9p-tHk" id="zYQ-Mt-YJK"/>
                         <outlet property="provinceName" destination="7Zp-Mm-joc" id="zZu-sp-CWO"/>
@@ -834,7 +837,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Pelajari Provinsi Ini" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="18"/>
-                                    <color key="baseBackgroundColor" red="0.59607845540000004" green="0.86666667460000002" blue="0.79607844350000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.49211833974274394" green="0.72424963207422688" blue="0.66134125986564474" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="selectButton:" destination="jD7-OQ-GO9" eventType="touchUpInside" id="1kW-aO-TRW"/>
@@ -936,7 +939,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Pelajari Pulau Ini" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="18"/>
-                                    <color key="baseBackgroundColor" red="0.59607845540000004" green="0.86666667460000002" blue="0.79607844350000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.50597788615101769" green="0.7446467003731958" blue="0.67996663742748409" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="selectButton:" destination="0Mm-6g-fkn" eventType="touchUpInside" id="qLg-AR-fRI"/>
@@ -1004,13 +1007,13 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="20h-CU-Hx7"/>
+        <segue reference="ZiU-qT-28r"/>
         <segue reference="VXm-MS-eRl"/>
         <segue reference="jFo-8r-3px"/>
         <segue reference="JyQ-rP-gf2"/>
-        <segue reference="LNr-Jx-RS2"/>
+        <segue reference="ZSJ-KN-e9G"/>
         <segue reference="1gf-gM-1xP"/>
-        <segue reference="z51-gA-DOW"/>
+        <segue reference="gnX-Z1-gQh"/>
         <segue reference="8LD-Dp-8Xx"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -1024,7 +1027,6 @@
         <image name="oval.fill" catalog="system" width="128" height="96"/>
         <image name="play.fill" catalog="system" width="116" height="128"/>
         <image name="plus" catalog="system" width="128" height="113"/>
-        <image name="rectangle.dashed" catalog="system" width="128" height="93"/>
         <image name="rectangle.fill" catalog="system" width="128" height="93"/>
         <image name="speaker.fill" catalog="system" width="128" height="128"/>
         <namedColor name="AccentColor">
