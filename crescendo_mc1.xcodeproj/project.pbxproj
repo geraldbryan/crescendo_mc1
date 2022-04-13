@@ -29,8 +29,8 @@
 		909B29FD27FD9875002A4E1B /* SongDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909B29FC27FD9875002A4E1B /* SongDetailController.swift */; };
 		909B29FF27FDD9D5002A4E1B /* StoryBookControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909B29FE27FDD9D5002A4E1B /* StoryBookControllerView.swift */; };
 		909B2A0327FDF131002A4E1B /* StoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909B2A0227FDF130002A4E1B /* StoryController.swift */; };
-		90E1D481280660DB00F2B817 /* story1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90E1D480280660DB00F2B817 /* story1.gif */; };
-		90E1D483280660E700F2B817 /* story4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90E1D482280660E700F2B817 /* story4.gif */; };
+		90E1D4862806A89D00F2B817 /* story1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90E1D4842806A89C00F2B817 /* story1.gif */; };
+		90E1D4872806A89D00F2B817 /* story4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90E1D4852806A89C00F2B817 /* story4.gif */; };
 		90F6C32927FC812600B55C3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F6C32827FC812600B55C3F /* AppDelegate.swift */; };
 		90F6C32B27FC812600B55C3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F6C32A27FC812600B55C3F /* SceneDelegate.swift */; };
 		90F6C32D27FC812600B55C3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F6C32C27FC812600B55C3F /* ViewController.swift */; };
@@ -83,8 +83,8 @@
 		909B29FC27FD9875002A4E1B /* SongDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetailController.swift; sourceTree = "<group>"; };
 		909B29FE27FDD9D5002A4E1B /* StoryBookControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBookControllerView.swift; sourceTree = "<group>"; };
 		909B2A0227FDF130002A4E1B /* StoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryController.swift; sourceTree = "<group>"; };
-		90E1D480280660DB00F2B817 /* story1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = story1.gif; sourceTree = "<group>"; };
-		90E1D482280660E700F2B817 /* story4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = story4.gif; sourceTree = "<group>"; };
+		90E1D4842806A89C00F2B817 /* story1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = story1.gif; sourceTree = "<group>"; };
+		90E1D4852806A89C00F2B817 /* story4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = story4.gif; sourceTree = "<group>"; };
 		90F6C32527FC812600B55C3F /* crescendo_mc1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crescendo_mc1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F6C32827FC812600B55C3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90F6C32A27FC812600B55C3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -154,10 +154,10 @@
 				900E43F2280562EE00EB88A2 /* true_answer.gif */,
 				900E43F62805653F00EB88A2 /* coba-lagi-unscreen.gif */,
 				900E43E62805568600EB88A2 /* playsong.gif */,
+				90E1D4842806A89C00F2B817 /* story1.gif */,
+				90E1D4852806A89C00F2B817 /* story4.gif */,
 				900E43EE28055D7500EB88A2 /* coba_lagi.gif */,
 				909287B9280407CE00B62380 /* 4 Sec_Logo.MOV */,
-				90E1D480280660DB00F2B817 /* story1.gif */,
-				90E1D482280660E700F2B817 /* story4.gif */,
 				900E43FC2805709000EB88A2 /* tokecang_preview.mp3 */,
 				909287B12802EF7900B62380 /* voiceover_tokecang.mp3 */,
 				9004B249280043A10000391D /* MapIslandController.swift */,
@@ -311,11 +311,11 @@
 				900E43F3280562EE00EB88A2 /* true_answer.gif in Resources */,
 				90F6C33527FC812700B55C3F /* Assets.xcassets in Resources */,
 				9004B24E28007B860000391D /* tokecang.mp3 in Resources */,
-				90E1D481280660DB00F2B817 /* story1.gif in Resources */,
+				90E1D4862806A89D00F2B817 /* story1.gif in Resources */,
 				900E43EF28055D7500EB88A2 /* coba_lagi.gif in Resources */,
 				909287BA280407CE00B62380 /* 4 Sec_Logo.MOV in Resources */,
 				900E43E72805568600EB88A2 /* playsong.gif in Resources */,
-				90E1D483280660E700F2B817 /* story4.gif in Resources */,
+				90E1D4872806A89D00F2B817 /* story4.gif in Resources */,
 				909287B22802EF7900B62380 /* voiceover_tokecang.mp3 in Resources */,
 				90F6C33027FC812600B55C3F /* Main.storyboard in Resources */,
 				900E43F72805654000EB88A2 /* coba-lagi-unscreen.gif in Resources */,
