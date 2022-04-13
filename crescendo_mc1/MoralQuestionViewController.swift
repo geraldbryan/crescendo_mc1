@@ -18,10 +18,12 @@ class MoralQuestionViewController: UIViewController {
     @IBOutlet weak var answerOne: UIButton!
     @IBOutlet weak var answerTwo: UIButton!
     @IBOutlet weak var answerThree: UIButton!
+    @IBOutlet weak var imageMascot: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        imageMascot.image = UIImage(named: "moral-mascot.png")
         // Do any additional setup after loading the view.
     }
     

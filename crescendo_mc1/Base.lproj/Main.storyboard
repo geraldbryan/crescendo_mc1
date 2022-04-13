@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Rf2-g5-Awz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="V8s-pd-oJb">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
@@ -500,9 +500,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ct6-CL-XbQ">
-                                <rect key="frame" x="0.0" y="0.0" width="390" height="314"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ct6-CL-XbQ">
+                                <rect key="frame" x="-75" y="-3" width="541" height="292"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.58039218189999997" green="0.8392156959" blue="0.76862752440000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="60"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Apa moral cerita ini?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9UL-7r-3v5">
                                 <rect key="frame" x="62" y="199" width="266" height="34"/>
@@ -565,7 +567,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jika ada banyak makanan enak di meja makan, apa yang harus kamu lakukan?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ji5-KT-QHd">
-                                <rect key="frame" x="47" y="339" width="297" height="103"/>
+                                <rect key="frame" x="47" y="321" width="297" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
                                 <nil key="textColor"/>
@@ -592,21 +594,26 @@
                                     <segue destination="6U4-30-MnN" kind="presentation" modalPresentationStyle="fullScreen" id="1gf-gM-1xP"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hrg-f9-pXs">
+                                <rect key="frame" x="75" y="31" width="240" height="242"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kll-cC-aUS"/>
-                        <color key="backgroundColor" red="0.94509804249999996" green="1" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <connections>
                         <outlet property="answerOne" destination="8yw-ju-vHQ" id="Z9h-QS-BNi"/>
                         <outlet property="answerThree" destination="bJ0-LO-4uv" id="waj-Mz-4M3"/>
                         <outlet property="answerTwo" destination="ydQ-lS-EYX" id="myS-XM-kJY"/>
+                        <outlet property="imageMascot" destination="Hrg-f9-pXs" id="XbE-DL-D9k"/>
                         <outlet property="question" destination="ji5-KT-QHd" id="bAV-7w-7nj"/>
-                        <segue destination="iwj-Lx-LWq" kind="modal" identifier="CorrectAnswer" modalPresentationStyle="fullScreen" id="q7s-Nu-U6X"/>
+                        <segue destination="iwj-Lx-LWq" kind="presentation" identifier="CorrectAnswer" modalPresentationStyle="fullScreen" id="q7s-Nu-U6X"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8uv-m2-gV6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3089" y="102"/>
+            <point key="canvasLocation" x="3087.6923076923076" y="101.65876777251184"/>
         </scene>
         <!--Right Answer View Controller-->
         <scene sceneID="r3h-B8-QCO">
@@ -722,7 +729,7 @@
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="46" weight="thin"/>
                             </imageView>
                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AfZ-Ab-tbT">
-                                <rect key="frame" x="96" y="467" width="206" height="36"/>
+                                <rect key="frame" x="121" y="467" width="206" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="plus" catalog="system" title=" Upcoming song">
@@ -791,11 +798,16 @@
                                     <segue destination="jD7-OQ-GO9" kind="presentation" modalPresentationStyle="fullScreen" id="VXm-MS-eRl"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7GL-mh-AA5">
+                                <rect key="frame" x="65" y="437" width="89" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ctb-b8-qGt"/>
                         <color key="backgroundColor" red="0.94509804249999996" green="1" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
+                        <outlet property="comingSoon" destination="7GL-mh-AA5" id="ubx-gF-615"/>
                         <outlet property="headerImage" destination="OqM-Wv-96m" id="x8t-qx-wje"/>
                         <outlet property="mainSong" destination="cGR-Bx-9Sl" id="6Uq-0k-lly"/>
                         <outlet property="previewSong" destination="gxa-9p-tHk" id="zYQ-Mt-YJK"/>
@@ -1003,7 +1015,7 @@
         <segue reference="JyQ-rP-gf2"/>
         <segue reference="LNr-Jx-RS2"/>
         <segue reference="1gf-gM-1xP"/>
-        <segue reference="gnX-Z1-gQh"/>
+        <segue reference="z51-gA-DOW"/>
         <segue reference="8NI-t6-kki"/>
     </inferredMetricsTieBreakers>
     <resources>

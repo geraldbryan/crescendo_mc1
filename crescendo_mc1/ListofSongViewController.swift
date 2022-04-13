@@ -19,6 +19,7 @@ class ListofSongViewController: UIViewController {
     @IBOutlet weak var songAuthor: UILabel!
     @IBOutlet weak var previewSong: UIButton!
     @IBOutlet weak var mainSong: UIButton!
+    @IBOutlet weak var comingSoon: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,6 +38,8 @@ class ListofSongViewController: UIViewController {
         }
 
         // Do any additional setup after loading the view.
+        comingSoon.image = UIImage(named: "coming-soon.png")
+        
         provinceName.text = "Jawa Barat"
         
         songTitle.text = "Tokecang"
