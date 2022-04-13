@@ -12,7 +12,7 @@ class StoryBookControllerView: UIViewController {
     var storyMinutes = 2
     var storyTitle = "Gali Si Anak Rakus"
     var storySong = "Tokecang"
-    var coverImage: UIImage = UIImage(named: "happy.jpeg")!
+    var coverImage: UIImage = UIImage(named: "tokecang.png")!
     
     @IBOutlet weak var storyImageCover: UIImageView!
     @IBOutlet weak var storyFrontTitle: UILabel!

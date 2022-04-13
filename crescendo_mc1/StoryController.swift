@@ -17,7 +17,8 @@ class StoryController: UIViewController {
     
     var storyTemplate = ["Di suatu desa terpencil, ada seorang anak bernama Gali Bayu. Gali sangat suka makan, dan tidak pernah kenyang.",
                  "Hujan kencang yang melanda desa Gali membuat panen Ayah Gali banyak yang rusak dan hanya sedikit yang bagus.", "Pada malam hari, Gali mengambil salah satu karung kacang di gudang. Gali pun memakannya dengan rakus hingga tidak tersisa.","Keesokan harinya Gali sakit perut dan menangis sambil memegang perutnya. Gali akhirnya berkata jujur kepada Ibunya bahwa dia lah yang memakan habis kacang yang disimpan Ayah.", "Ayah yang mendengar hal tersebut memberitahu Gali, bahwa karung kacang yang dimakan Gali berisi kacang sisa yang busuk dan tidak bagus. Ayah akhirnya menasehati Gali untuk tidak menjadi rakus."]
-    var imageBackground = [UIImage(named: "happy.jpeg"),UIImage(named: "background-song.png"),UIImage(named: "happy.jpeg"),UIImage(named: "background-song.png"),UIImage(named: "happy.jpeg")]
+    
+    var imageBackground = [UIImage.gif(name: "story1"),UIImage(named: "story2.png"),UIImage(named: "story3.png"),UIImage.gif(name: "story4"),UIImage(named: "story5.png")]
         
     var currStory: Int = 0
     

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D332EA92805E93F00CACE52 /* story1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4D332EA82805E93F00CACE52 /* story1.gif */; };
+		4D332EAB2805E94400CACE52 /* story4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4D332EAA2805E94400CACE52 /* story4.gif */; };
 		9004B24627FF15A10000391D /* MapProvinceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9004B24527FF15A10000391D /* MapProvinceController.swift */; };
 		9004B248280029B40000391D /* ListofSongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9004B247280029B40000391D /* ListofSongViewController.swift */; };
 		9004B24A280043A10000391D /* MapIslandController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9004B249280043A10000391D /* MapIslandController.swift */; };
@@ -59,6 +61,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D332EA82805E93F00CACE52 /* story1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = story1.gif; path = ../../../Downloads/FINAL/story1.gif; sourceTree = "<group>"; };
+		4D332EAA2805E94400CACE52 /* story4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = story4.gif; path = ../../../Downloads/FINAL/story4.gif; sourceTree = "<group>"; };
 		9004B24527FF15A10000391D /* MapProvinceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapProvinceController.swift; sourceTree = "<group>"; };
 		9004B247280029B40000391D /* ListofSongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListofSongViewController.swift; sourceTree = "<group>"; };
 		9004B249280043A10000391D /* MapIslandController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapIslandController.swift; sourceTree = "<group>"; };
@@ -149,6 +153,8 @@
 				909287C128040B4E00B62380 /* tokecang_song.mp3 */,
 				900E43F2280562EE00EB88A2 /* true_answer.gif */,
 				900E43F62805653F00EB88A2 /* coba-lagi-unscreen.gif */,
+				4D332EA82805E93F00CACE52 /* story1.gif */,
+				4D332EAA2805E94400CACE52 /* story4.gif */,
 				900E43E62805568600EB88A2 /* playsong.gif */,
 				900E43EE28055D7500EB88A2 /* coba_lagi.gif */,
 				909287B9280407CE00B62380 /* 4 Sec_Logo.MOV */,
@@ -305,9 +311,11 @@
 				900E43F3280562EE00EB88A2 /* true_answer.gif in Resources */,
 				90F6C33527FC812700B55C3F /* Assets.xcassets in Resources */,
 				9004B24E28007B860000391D /* tokecang.mp3 in Resources */,
+				4D332EA92805E93F00CACE52 /* story1.gif in Resources */,
 				900E43EF28055D7500EB88A2 /* coba_lagi.gif in Resources */,
 				909287BA280407CE00B62380 /* 4 Sec_Logo.MOV in Resources */,
 				900E43E72805568600EB88A2 /* playsong.gif in Resources */,
+				4D332EAB2805E94400CACE52 /* story4.gif in Resources */,
 				909287B22802EF7900B62380 /* voiceover_tokecang.mp3 in Resources */,
 				90F6C33027FC812600B55C3F /* Main.storyboard in Resources */,
 				900E43F72805654000EB88A2 /* coba-lagi-unscreen.gif in Resources */,

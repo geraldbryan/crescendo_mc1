@@ -43,7 +43,7 @@ class ListofSongViewController: UIViewController {
         
         songAuthor.text = "R.C. Hardjosubroto"
         
-        songImage.image = UIImage(named: "happy.jpeg")!
+        songImage.image = UIImage(named: "tokecang_cover.png")!
         
         headerImage.image = UIImage(named: "listsong_banner.png")!
     }
